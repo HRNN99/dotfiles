@@ -2,7 +2,6 @@
 
 # List of required programs
 required_programs=(
-    git
     curl
     wget
     htop
@@ -16,8 +15,12 @@ required_programs=(
     gedit
     kdeconnect
     okular
-    nvim
+    neovim
     vlc
+    ranger
+    spotify-client
+    translate-shell
+    synapse
 )
 
 echo "Updating package list..."
