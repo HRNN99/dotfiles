@@ -12,6 +12,12 @@ required_programs=(
     mlocate
     zip
     unzip
+    remmina
+    gedit
+    kdeconnect
+    okular
+    nvim
+    vlc
 )
 
 echo "Updating package list..."

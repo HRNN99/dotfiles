@@ -20,17 +20,17 @@ done
 if [ ! -f .env ]; then
     cat << EOF > .env
 # GitHub settings
-GITHUB_USERNAME=wet333
+GITHUB_USERNAME=HRNN99
 REPO_NAME=fullstack_test_script
 
 # Java and Spring settings
 JAVA_VERSION=20
 SPRING_VERSION=3.3.2
-GROUP_ID=online.awet
+GROUP_ID=online.hrnn
 ARTIFACT_ID=spring-api-test
 PROJECT_NAME=spring-api-test
 PROJECT_DESCRIPTION="Spring API Project"
-PACKAGE_NAME=online.awet.springapi-test
+PACKAGE_NAME=online.hrnn.springapi-test
 
 # Frontend settings
 NODE_VERSION=18

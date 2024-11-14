@@ -7,3 +7,7 @@ dir_count_files() {
 dir_count_directories() {
   ls -l $1 | grep "^d" | wc -l
 }
+
+dir_size() {
+  du -hs * | sort -rh | head -6
+}

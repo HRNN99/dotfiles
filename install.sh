@@ -14,7 +14,7 @@
 cd "$HOME"
 
 # Variables
-GITHUB_USERNAME="wet333"
+GITHUB_USERNAME="HRNN99"
 REPO_NAME="dotfiles"
 REPO_URL="https://github.com/$GITHUB_USERNAME/$REPO_NAME.git"
 CLONE_DIR="$HOME/$REPO_NAME"

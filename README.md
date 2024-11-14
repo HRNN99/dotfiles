@@ -20,10 +20,10 @@ This repository contains my personal configuration/functionality for Linux envir
 
 To download all configurations run one of the following commands:
 ```bash
-    wget -qO- https://raw.githubusercontent.com/wet333/dotfiles/master/install.sh | bash
+    wget -qO- https://raw.githubusercontent.com/HRNN99/dotfiles/master/install.sh | bash
 ```
 ```bash
-    curl -s https://raw.githubusercontent.com/wet333/dotfiles/master/install.sh | bash
+    curl -s https://raw.githubusercontent.com/HRNN99/dotfiles/master/install.sh | bash
 ```
 
 By default, the installation script will only activate **shell** related configurations (prompt, aliases, functions, environment variables).
