@@ -20,7 +20,6 @@ required_programs=(
     ranger
     spotify-client
     translate-shell
-    synapse
 )
 
 echo "Updating package list..."
