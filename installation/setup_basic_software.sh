@@ -20,6 +20,7 @@ required_programs=(
     ranger
     spotify-client
     translate-shell
+    npm
 )
 
 echo "Updating package list..."
