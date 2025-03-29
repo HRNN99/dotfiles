@@ -19,3 +19,12 @@ docker_rmi_dangling() {
         echo "No dangling images to remove"
     fi
 }
+
+# Removes containers images and volumes from Docker
+docker_clean() {
+	sudo docker container prune --force &&
+	sudo docker image prune --force &&
+	sudo docker volume prune --force &&
+	sudo docker network prune --force 
+	
+}

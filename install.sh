@@ -35,9 +35,10 @@ installation_procedure() {
     # System setup scripts
     bash "$CLONE_DIR/installation/setup_filesystem_configuration.sh"
     bash "$CLONE_DIR/installation/setup_basic_software.sh"
-    bash "$CLONE_DIR/installation/setup_assembly.sh"
     bash "$CLONE_DIR/installation/setup_sdkman.sh"
     bash "$CLONE_DIR/installation/setup_ssh.sh"
+    bash "$CLONE_DIR/installation/setup_intellij.sh"
+    bash "$CLONE_DIR/installation/setup_code.sh"
 
     # Source the .bashrc file to apply changes immediately
     source "$HOME/.bashrc"

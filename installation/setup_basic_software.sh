@@ -21,6 +21,7 @@ required_programs=(
     spotify-client
     translate-shell
     npm
+    rofi
 )
 
 echo "Updating package list..."
