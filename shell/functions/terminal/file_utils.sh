@@ -14,7 +14,7 @@ file_count_characters() {
 
 file_verify_hash(){
     # if file is not entered 
-    if [[ -z "$1"]]; then
+    if [[ -z "$1" ]]; then
         echo "Usage: file_verify_hash <file>"
         return 1
     fi
