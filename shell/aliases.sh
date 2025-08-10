@@ -7,6 +7,8 @@ alias lsf="bash_print_user_defined_functions"
 #MIS ALIAS
 alias e='trans -t es'
 alias s='trans -s es -t en'
+alias p='trans -s pt -t es'
+alias sp='trans -s es -t pt'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade -y'
 alias upgradable='sudo apt list --upgradable'
